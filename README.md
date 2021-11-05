@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-1. Describe component state.
-1. Describe props.
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple.
+
+2. Describe component state.
+React components has a built-in state object.
+The state object is where you store property values that belongs to the component.
+When the state object changes, the component re-renders.
+
+3. Describe props.
+Props are arguments passed into React components.
+Props are passed to components via HTML attributes.
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+A side effect is anything that affects something outside the scope of the function being executed.
+to sync effects you do this by passing in a dependency array as the second argument to the effect hook
