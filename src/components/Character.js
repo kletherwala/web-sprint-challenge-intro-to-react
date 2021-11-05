@@ -1,10 +1,5 @@
 // // Write your Character component here
 // import React, { useState, useEffect } from 'react';
-// import styled from 'styled-components';
-
-
-// co
-
 import React from 'react';
 import styled from "styled-components";
 
@@ -13,7 +8,7 @@ const CharacterDiv = styled.div`
     width: 50%;
     margin: 0 auto;
     font-family: serif;
-    font-size: 20px;
+    font-size: 16px;
 `;
 
 function Character(character) {
